@@ -1,6 +1,12 @@
 @use "../utilities/functions" as func;
 @use "../utilities/variables" as var;
 
+@mixin flex($gap: 20px){
+    display: flex;
+    align-items: center; 
+    gap: $gap;
+}
+
 @mixin authSection-text($color: var.$primaryAccentTextColor){
     font-size: func.font-sizes("xs");
     line-height: 1.33;

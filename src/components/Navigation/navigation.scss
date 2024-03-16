@@ -1,0 +1,59 @@
+@use "../scss/utilities/variables" as var;
+@use "../scss/utilities/functions" as func;
+@use "../scss/utilities/mixins" as mix;
+
+.nav-section {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.nav-section-container {
+    @include mix.flex(0);
+    justify-content: space-between;
+}
+
+.logo {
+  font-family: var.$accent-font;
+  font-weight: func.font-weight("medium");
+  font-size: func.font-sizes("lg");
+  line-height: 1.7;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.navigation {
+
+}
+
+.navigation-list {
+    @include mix.flex(30px);
+}
+
+.navigation-list-item {
+}
+
+.navigation-text {
+  line-height: 150%;
+  font-variant: small-caps;
+}
+
+.btn-container {
+    @include mix.flex;
+}
+
+.search-container {
+  position: relative;
+}
+
+.input-search {
+  border-radius: 15px;
+  min-width: 282px;
+  height: 40px;
+  background-color: #e8e8e8;
+  padding-left: 44px;
+}
+
+.text {
+}
