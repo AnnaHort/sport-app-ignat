@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/sport-app-ignat/static/css/main.be2306c6.css",
-    "main.js": "/sport-app-ignat/static/js/main.0b1e2d8f.js",
+    "main.css": "/sport-app-ignat/static/css/main.7f15f763.css",
+    "main.js": "/sport-app-ignat/static/js/main.86211f56.js",
+    "static/media/hero-img.jpg": "/sport-app-ignat/static/media/hero-img.4fab7a56191753543c12.jpg",
+    "static/media/montserrat-variablefont_wght-webfont.woff": "/sport-app-ignat/static/media/montserrat-variablefont_wght-webfont.42ec89bacc1d68103392.woff",
+    "static/media/inter-variablefont_slntwght-webfont.woff": "/sport-app-ignat/static/media/inter-variablefont_slntwght-webfont.3ae3a41f196261f37abf.woff",
     "static/media/roboto-bold-webfont.woff": "/sport-app-ignat/static/media/roboto-bold-webfont.3985cd96aba4368f85e5.woff",
     "static/media/roboto-medium-webfont.woff": "/sport-app-ignat/static/media/roboto-medium-webfont.54fccdeced02dfae93ff.woff",
     "static/media/roboto-regular-webfont.woff": "/sport-app-ignat/static/media/roboto-regular-webfont.e3ce6679aae0e7bfa39a.woff",
+    "static/media/montserrat-variablefont_wght-webfont.woff2": "/sport-app-ignat/static/media/montserrat-variablefont_wght-webfont.017c0d4d877aa1460e86.woff2",
+    "static/media/inter-variablefont_slntwght-webfont.woff2": "/sport-app-ignat/static/media/inter-variablefont_slntwght-webfont.70ada1522e26bea18ba6.woff2",
     "static/media/roboto-bold-webfont.woff2": "/sport-app-ignat/static/media/roboto-bold-webfont.da3746d829f495e26fe8.woff2",
     "static/media/roboto-medium-webfont.woff2": "/sport-app-ignat/static/media/roboto-medium-webfont.a5474a55edb06813981c.woff2",
     "static/media/roboto-regular-webfont.woff2": "/sport-app-ignat/static/media/roboto-regular-webfont.3168f8387ad0187491a1.woff2",
     "index.html": "/sport-app-ignat/index.html",
-    "main.be2306c6.css.map": "/sport-app-ignat/static/css/main.be2306c6.css.map",
-    "main.0b1e2d8f.js.map": "/sport-app-ignat/static/js/main.0b1e2d8f.js.map"
+    "main.7f15f763.css.map": "/sport-app-ignat/static/css/main.7f15f763.css.map",
+    "main.86211f56.js.map": "/sport-app-ignat/static/js/main.86211f56.js.map"
   },
   "entrypoints": [
-    "static/css/main.be2306c6.css",
-    "static/js/main.0b1e2d8f.js"
+    "static/css/main.7f15f763.css",
+    "static/js/main.86211f56.js"
   ]
 }
