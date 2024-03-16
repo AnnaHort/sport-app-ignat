@@ -5,7 +5,7 @@
 @use "sass:list";
 
 body {
-  font-family: var.$main-font;
+  font-family: var.$main-font, sans-serif;
   font-weight: func.font-weight("regular");
   font-size: func.font-sizes("sm");
   color: var.$primaryTextColor;

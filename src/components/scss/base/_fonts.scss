@@ -9,6 +9,26 @@ $fonts: var.$font-weights;
       url("../../../fonts/roboto-#{$key}-webfont.woff") format("woff");
     font-weight: $value;
     font-style: normal;
-    font-display: swap;
+    font-display: normal;
   }
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../../fonts/Inter/inter-variablefont_slntwght-webfont.woff")
+      format("woff2"),
+    url("../../../fonts/Inter/inter-variablefont_slntwght-webfont.woff2")
+      format("woff");
+  font-style: normal;
+  font-display: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../../fonts/Montserrat/montserrat-variablefont_wght-webfont.woff")
+      format("woff2"),
+    url("../../../fonts/Montserrat/montserrat-variablefont_wght-webfont.woff2")
+      format("woff");
+  font-style: normal;
+  font-display: normal;
 }

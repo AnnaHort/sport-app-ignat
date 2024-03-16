@@ -1,0 +1,82 @@
+@use "../scss/utilities/variables" as var;
+@use "../scss/utilities/mixins" as mix;
+@use "../scss/utilities/functions" as func;
+
+.hero-section {
+
+}
+
+
+
+.swiper-slide {
+  // linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../img/hero-img.jpg");
+  background-size: auto 489px;
+  background-size: cover;
+  // background-position: 0 -300px; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 32px 0 100px 0;
+}
+
+.swiper-hero-container {
+  
+  @include mix.flex(130px);
+  justify-content: center;
+}
+
+.title-container {
+}
+
+.hero-title {
+  font-family: var.$secondary-font, sans-serif;
+  font-weight: 900;
+  font-size: func.font-sizes("xxxl");
+  color: var.$primaryAccentTextColor;
+  max-width: 470px;
+  margin-bottom: 40px;
+}
+
+.hero-title-accent {
+  font-family: var.$secondary-font, sans-serif;
+  font-weight: 300;
+  font-size: func.font-sizes("xxxl");
+  color: var.$primaryAccentTextColor;
+}
+
+.hero-info-container {
+}
+.sale-text {
+  font-family: var.$secondary-font, sans-serif;
+  font-weight: 300;
+  font-size: func.font-sizes("xxl");
+  color: var.$primaryAccentTextColor;
+  text-align: center;
+  padding: 15px 34px;
+  backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.3);
+  margin-bottom: 20px;
+}
+
+.time-text {
+  font-family: var.$secondary-font, sans-serif;
+  font-weight: 400;
+  font-size: func.font-sizes("md");
+  text-align: center;
+  color: var.$primaryAccentTextColor;
+}
+
+.swiper-button-prev {
+  color: var.$primaryAccentTextColor !important;
+  margin-left: 36px;
+}
+.swiper-button-next {
+  color: var.$primaryAccentTextColor !important;
+  margin-right: 36px;
+}
+
+.swiper-pagination-bullet {
+  width: 15px !important;
+  height: 2px !important;
+  background-color: #fff !important;
+}
