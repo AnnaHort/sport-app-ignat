@@ -1,0 +1,48 @@
+@use "../scss/utilities/variables" as var;
+@use "../scss/utilities/functions" as func;
+@use "../scss/utilities/mixins" as mix;
+
+.auth-section {
+  padding: 16px 0;
+  background-color: var.$secondaryBgcColor;
+}
+
+.auth-section-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.helps {
+}
+
+.helper-list {
+  display: flex;
+  gap: 23px;
+}
+
+.helper-list-el {
+}
+
+.tel {
+@include mix.authSection-text;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.helper-text {
+    @include mix.authSection-text;
+}
+
+.auth-container {
+}
+
+.login {
+    @include mix.authSection-text(var.$secondaryAccentTextColor);
+}
+
+.slash {
+    @include mix.authSection-text(var.$secondaryAccentTextColor);
+}
+
+.registration {
+    @include mix.authSection-text(var.$secondaryAccentTextColor);
+}

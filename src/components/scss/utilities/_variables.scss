@@ -1,37 +1,18 @@
-$primaryTextColor: #121417;
-$secondaryTextColor: #8a8a89;
-$primaryYellowColor: rgb(244, 197, 80);
+// text colors
+$primaryTextColor: #343434;
+$secondaryTextColor: #626262;
+$primaryAccentTextColor: #ffffff;
+$secondaryAccentTextColor: #d9d9d9;
+$priceTextColor: #4aaa4e;
 
+// bgc colors
+$primaryBgcColor: #ffffff;
+$secondaryBgcColor: #343434;
+
+//fonts
 $main-font: "Roboto";
 
-$primary-yellow-hover-color: #fbe9ba;
-$primary-green-hover-color: #cbded3;
-$primary-blue-hover-color: #bfd6ea;
-$primary-red-hover-color: #f2c0bd;
-$primary-orange-hover-color: #f4c8ba;
-
-$color: (
-  "yell": rgb(244, 197, 80),
-  "grn": #9fbaae,
-  "bl": #9fb7ce,
-  "rd": #e0a39a,
-  "org": #f0aa8d,
-);
-
-//map 
-$breakpoints: (
-  "sm": 375px,
-  "md": 768px,
-  "lg": 1200px,
-  "xl": 1440px,
-  "xxl": 1920px,
-);
-
-$paddings: (
-  "modal": 64px,
-  "container": 0 64px,
-);
-
+//map
 $font-weights: (
   "regular": 400,
   "medium": 500,
@@ -39,7 +20,7 @@ $font-weights: (
 );
 
 $font-sizes: (
-  "xs": 14px,
+  "xs": 12px,
   "sm": 16px,
   "md": 18px,
   "lg": 24px,

@@ -1,0 +1,9 @@
+@use "../utilities/functions" as func;
+@use "../utilities/variables" as var;
+
+@mixin authSection-text($color: var.$primaryAccentTextColor){
+    font-size: func.font-sizes("xs");
+    line-height: 1.33;
+    font-variant: small-caps;
+    color: $color;
+}

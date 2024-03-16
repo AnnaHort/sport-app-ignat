@@ -1,9 +1,11 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./authSection.scss";
 
 export const AuthSection = () => {
   return (
     <section className="auth-section">
+      <div className="auth-section-container container">
       <div className="helps">
         <ul className="helper-list">
           <li className="helper-list-el">
@@ -12,16 +14,24 @@ export const AuthSection = () => {
             </a>
           </li>
           <li className="helper-list-el">
-            <NavLink href="#">Допомога</NavLink>
+            <NavLink href="#" className="helper-text">
+              Допомога
+            </NavLink>
           </li>
         </ul>
       </div>
 
       <div className="auth-container">
-        <NavLink href="#">Увійти</NavLink>
-        <span> / </span>
-        <NavLink href="#">Зареєструватися</NavLink>
+        <NavLink href="#" className="login">
+          Увійти
+        </NavLink>
+        <span className="slash"> / </span>
+        <NavLink href="#" className="registration">
+          Зареєструватися
+        </NavLink>
       </div>
+      </div>
+     
     </section>
   );
 };

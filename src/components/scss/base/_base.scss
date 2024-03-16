@@ -4,10 +4,16 @@
 @use "sass:map";
 @use "sass:list";
 
-body{
-    font-family: var.$main-font;
-    font-weight: func.font-weight("regular");
-    font-size: func.font-sizes("sm");
-    color: var.$primaryTextColor;
-    background-color: lightgreen;
+body {
+  font-family: var.$main-font;
+  font-weight: func.font-weight("regular");
+  font-size: func.font-sizes("sm");
+  color: var.$primaryTextColor;
+  background-color: var.$primaryBgcColor;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+   max-width: 1170px; 
 }
