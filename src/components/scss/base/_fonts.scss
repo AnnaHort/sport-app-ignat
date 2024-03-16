@@ -1,0 +1,14 @@
+@use "../utilities/variables" as var;
+
+$fonts: var.$font-weights;
+
+@each $key, $value in $fonts {
+  @font-face {
+    font-family: "Roboto";
+    src: url("../../../fonts/roboto-#{$key}-webfont.woff2") format("woff2"),
+      url("../../../fonts/roboto-#{$key}-webfont.woff") format("woff");
+    font-weight: $value;
+    font-style: normal;
+    font-display: swap;
+  }
+}
