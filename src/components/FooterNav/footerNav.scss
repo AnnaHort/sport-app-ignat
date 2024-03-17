@@ -1,0 +1,31 @@
+@use "../scss/utilities/variables" as var;
+@use "../scss/utilities/functions" as func;
+@use "../scss/utilities/mixins" as mix;
+
+.footer-nav-section {
+  background-color: var.$secondaryBgcColor;
+  padding: 42px 0 40px 0;
+}
+
+.footer-nav-container {
+  @include mix.flex(0);
+  justify-content: space-between;
+}
+
+.footer-navigation {
+}
+.footer-navigation-list {
+  @include mix.flex(30px);
+}
+.footer-navigation-list-item {
+}
+.footer-navigation-text {
+  font-variant: small-caps;
+  color: var.$primaryAccentTextColor;
+}
+.copyright {
+  font-size: func.font-sizes("xs");
+  line-height: 1.33;
+  font-variant: small-caps;
+  color: var.$primaryAccentTextColor;
+}

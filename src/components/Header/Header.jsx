@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 import { AuthSection } from '../AuthSection/AuthSection';
 import { Navigation } from '../Navigation/Navigation';
 import { AboutUs } from '../AboutUs/AboutUs';
+import { FooterNav } from '../FooterNav/FooterNav';
 
 export const Header = () => {
   return (
@@ -16,6 +17,7 @@ export const Header = () => {
 
       <footer>
         <AboutUs/>
+        <FooterNav/>
       </footer>
     </>
   );
