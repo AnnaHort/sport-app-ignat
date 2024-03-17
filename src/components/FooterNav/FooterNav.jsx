@@ -10,19 +10,19 @@ export const FooterNav = () => {
         <nav className="footer-navigation">
         <ul className="footer-navigation-list">
           <li className="footer-navigation-list-item">
-            <NavLink className="footer-navigation-text">новинки</NavLink>
+            <NavLink className="footer-navigation-text" to="#">новинки</NavLink>
           </li>
           <li className="footer-navigation-list-item">
-            <NavLink className="footer-navigation-text">чоловіки</NavLink>
+            <NavLink className="footer-navigation-text" to="#">чоловіки</NavLink>
           </li>
           <li className="footer-navigation-list-item">
-            <NavLink className="footer-navigation-text">жінки</NavLink>
+            <NavLink className="footer-navigation-text" to="#">жінки</NavLink>
           </li>
           <li className="footer-navigation-list-item">
-            <NavLink className="footer-navigation-text">аксесуари</NavLink>
+            <NavLink className="footer-navigation-text" to="#">аксесуари</NavLink>
           </li>
           <li className="footer-navigation-list-item">
-            <NavLink className="footer-navigation-text">акції</NavLink>
+            <NavLink className="footer-navigation-text" to="#">акції</NavLink>
           </li>
         </ul>
       </nav>

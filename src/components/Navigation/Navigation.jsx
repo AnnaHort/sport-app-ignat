@@ -14,19 +14,19 @@ export const Navigation = () => {
         <nav className="navigation">
           <ul className="navigation-list">
             <li className="navigation-list-item">
-              <NavLink className="navigation-text">новинки</NavLink>
+              <NavLink className="navigation-text" to="#">новинки</NavLink>
             </li>
             <li className="navigation-list-item">
-              <NavLink className="navigation-text">чоловіки</NavLink>
+              <NavLink className="navigation-text" to="#">чоловіки</NavLink>
             </li>
             <li className="navigation-list-item">
-              <NavLink className="navigation-text">жінки</NavLink>
+              <NavLink className="navigation-text" to="#">жінки</NavLink>
             </li>
             <li className="navigation-list-item">
-              <NavLink className="navigation-text">аксесуари</NavLink>
+              <NavLink className="navigation-text" to="#">аксесуари</NavLink>
             </li>
             <li className="navigation-list-item">
-              <NavLink className="navigation-text">акції</NavLink>
+              <NavLink className="navigation-text" to="#">акції</NavLink>
             </li>
           </ul>
         </nav>

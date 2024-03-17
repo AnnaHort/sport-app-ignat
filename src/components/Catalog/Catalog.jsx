@@ -15,7 +15,7 @@ export const Catalog = () => {
           Обирай подарунок своїм друзями бодібілдерам із нашою новою колекцію
           термобілизни "Big warm"
         </p>
-        <Link to={"/catalog"} className="enter-catalog-btn" >До каталогу</Link>
+        <Link to="#" className="enter-catalog-btn" >До каталогу</Link>
       </div>
       <picture>
         <source srcSet={`${sportsman1x} 1x, ${sportsman2x} 2x`} />
