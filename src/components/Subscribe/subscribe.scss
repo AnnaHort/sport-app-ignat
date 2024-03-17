@@ -29,7 +29,7 @@
   border-radius: 15px;
 }
 .subscribe-input {
-  font-weight: 300;
+  font-weight: func.font-weight("light");
   line-height: 1.56;
   font-variant: small-caps;
   color: var.$lightGreyColor;
