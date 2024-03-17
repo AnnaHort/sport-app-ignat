@@ -9,9 +9,7 @@ export const AboutUs = () => {
   return (
     <section className="about-us-section">
       <div className="about-us-section-container container">
-
         <div className="about-us-contact-container">
-
           <div className="our-contact-container">
             <h3 className="about-us-title">Контакт - центр</h3>
             <ul className="about-us-list">
@@ -31,9 +29,27 @@ export const AboutUs = () => {
           </div>
 
           <div className="social-media-container">
-            <InstagramSvg />
-            <ViberSvg />
-            <TelegramSvg />
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <InstagramSvg />
+            </a>
+            <a
+              href="viber://chat?number=PHONE_NUMBER"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ViberSvg />
+            </a>
+            <a
+              href="https://web.telegram.org/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <TelegramSvg />
+            </a>
           </div>
         </div>
 
