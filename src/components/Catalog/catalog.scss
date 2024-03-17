@@ -1,0 +1,41 @@
+@use "../scss/utilities/mixins" as mix;
+@use "../scss/utilities/variables" as var;
+@use "../scss/utilities/functions" as func;
+
+.catalog-section {
+  padding: 36px 0 80px 0;
+  @include mix.flex(30px);
+}
+
+.enter-catalog {
+  max-width: 570px;
+}
+.catalog-title {
+  font-weight: func.font-weight("medium");
+  font-size: func.font-sizes("xl");
+  line-height: 1.32;
+  font-variant: small-caps;
+  margin-bottom: 30px;
+}
+.catalog-text {
+  line-height: 1.5;
+  font-variant: small-caps;
+  color: var.$secondaryTextColor;
+  margin-bottom: 40px;
+  max-width: 422px;
+}
+.enter-catalog-btn {
+  line-height: 1.5;
+  font-variant: small-caps;
+  color: var.$primaryAccentTextColor;
+
+  border-radius: 15px;
+  padding: 20px 35px;
+  background: var.$accentBgcColor;
+  min-width: 165px;
+}
+.sportsman-img {
+  border-radius: 3px;
+  width: 570px;
+  height: 381px;
+}
