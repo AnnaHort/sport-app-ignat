@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sport-app-ignat/static/css/main.a114ccaf.css",
-    "main.js": "/sport-app-ignat/static/js/main.888e904a.js",
+    "main.css": "/sport-app-ignat/static/css/main.692e3e86.css",
+    "main.js": "/sport-app-ignat/static/js/main.7e7164ae.js",
     "static/media/hero-img.jpg": "/sport-app-ignat/static/media/hero-img.4fab7a56191753543c12.jpg",
     "static/media/bodybuildersChain-2x.jpg": "/sport-app-ignat/static/media/bodybuildersChain-2x.ac1cd50051c2f65a6e84.jpg",
     "static/media/sportsman-2x.jpg": "/sport-app-ignat/static/media/sportsman-2x.02bd2ecdfdc4508d3084.jpg",
@@ -22,11 +22,11 @@
     "static/media/sportsman-1x.jpg": "/sport-app-ignat/static/media/sportsman-1x.25cffa52471415a11edb.jpg",
     "static/media/white-thermal-underwear-1x.jpg": "/sport-app-ignat/static/media/white-thermal-underwear-1x.ac7402eaaa043700e181.jpg",
     "index.html": "/sport-app-ignat/index.html",
-    "main.a114ccaf.css.map": "/sport-app-ignat/static/css/main.a114ccaf.css.map",
-    "main.888e904a.js.map": "/sport-app-ignat/static/js/main.888e904a.js.map"
+    "main.692e3e86.css.map": "/sport-app-ignat/static/css/main.692e3e86.css.map",
+    "main.7e7164ae.js.map": "/sport-app-ignat/static/js/main.7e7164ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.a114ccaf.css",
-    "static/js/main.888e904a.js"
+    "static/css/main.692e3e86.css",
+    "static/js/main.7e7164ae.js"
   ]
 }
