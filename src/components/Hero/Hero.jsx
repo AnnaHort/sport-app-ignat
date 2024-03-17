@@ -8,7 +8,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 export const Hero = () => {
-  //   const imagePaths = require("../../img/hero-img.jpg");
 
   return (
     <section className="hero-section">
@@ -23,7 +22,7 @@ export const Hero = () => {
         }}
       >
  
-        <SwiperSlide>
+        <SwiperSlide className="hero-slider-bgc">
           <div className="swiper-hero-container">
             <div className="title-container">
               <h1 className="hero-title">Швидше. Вище. Сильніше.</h1>
@@ -38,7 +37,7 @@ export const Hero = () => {
         </SwiperSlide>
 
       
-        <SwiperSlide>
+        <SwiperSlide className="hero-slider-bgc">
           <div className="swiper-hero-container">
             <div className="title-container">
               <h1 className="hero-title">Швидше. Вище. Сильніше.</h1>
@@ -51,7 +50,7 @@ export const Hero = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="hero-slider-bgc">
           <div className="swiper-hero-container">
             <div className="title-container">
               <h1 className="hero-title">Швидше. Вище. Сильніше.</h1>

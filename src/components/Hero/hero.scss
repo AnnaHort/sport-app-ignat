@@ -8,12 +8,10 @@
 
 
 
-.swiper-slide {
-  // linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))
+.hero-slider-bgc {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../img/hero-img.jpg");
   background-size: auto 489px;
   background-size: cover;
-  // background-position: 0 -300px; 
   background-position: center center;
   background-repeat: no-repeat;
   padding: 32px 0 100px 0;

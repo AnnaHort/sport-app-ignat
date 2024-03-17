@@ -1,0 +1,48 @@
+@use "../scss/utilities/functions" as func;
+@use "../scss/utilities/variables" as var;
+
+.hotAssortment-section {
+    padding-bottom: 80px;
+    border-bottom: 1px #959595 solid;
+}
+
+.hotAssortment-title {
+  font-weight: func.font-weight("medium");
+  font-size: func.font-sizes("lg");
+  line-height: 1.54;
+  font-variant: small-caps;
+  margin-bottom: 31px;
+}
+.white-thermal-underwear {
+    margin-bottom: 15px;
+}
+.assortment-title {
+  font-weight: func.font-weight("medium");
+  font-size: func.font-sizes("md");
+  line-height: 1.3;
+  font-variant: small-caps;
+  margin-bottom: 20px;
+}
+.product-type {
+  line-height: 1.5;
+  font-variant: small-caps;
+  color: var.$secondaryTextColor;
+  margin-bottom: 10px;
+}
+.product-details {
+  line-height: 1.5;
+  font-variant: small-caps;
+  color: var.$secondaryTextColor;
+  margin-bottom: 17px;
+}
+.price {
+    font-weight: func.font-weight("bold");
+    font-size: func.font-sizes("md");
+  line-height: 2;
+  font-variant: small-caps;
+  color: var.$priceTextColor;
+}
+.swiper-button-left {
+}
+.swiper-button-right {
+}
