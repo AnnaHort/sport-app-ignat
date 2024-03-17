@@ -18,7 +18,7 @@
 }
 
 .hero-title {
-  font-family: var.$secondary-font, sans-serif;
+  font-family: var.$secondary-font;
   font-weight: func.font-weight-inter("black");
   font-size: func.font-sizes("xxxl");
   color: var.$primaryAccentTextColor;
@@ -27,14 +27,14 @@
 }
 
 .hero-title-accent {
-  font-family: var.$secondary-font, sans-serif;
+  font-family: var.$secondary-font;
   font-weight: func.font-weight-inter("light");
   font-size: func.font-sizes("xxxl");
   color: var.$primaryAccentTextColor;
 }
 
 .sale-text {
-  font-family: var.$secondary-font, sans-serif;
+  font-family: var.$secondary-font;
   font-weight: func.font-weight-inter("light");
   font-size: func.font-sizes("xxl");
   color: var.$primaryAccentTextColor;
@@ -46,7 +46,7 @@
 }
 
 .time-text {
-  font-family: var.$secondary-font, sans-serif;
+  font-family: var.$secondary-font;
   font-weight: func.font-weight-inter("regular");
   font-size: func.font-sizes("md");
   text-align: center;
