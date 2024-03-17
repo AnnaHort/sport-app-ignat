@@ -1,0 +1,51 @@
+@use "../scss/utilities/functions" as func;
+@use "../scss/utilities/mixins" as mix;
+@use "../scss/utilities/variables" as var;
+
+.reviews-section {
+    position: relative;
+    padding-bottom: 157px;
+}
+
+.reviews-section-title {
+  font-size: func.font-sizes("lg");
+  line-height: 1.54;
+  font-variant: small-caps;
+  margin-bottom: 30px;
+}
+
+.reviews-slider-container {
+  border: 1px solid var.$accentBgcColor;
+  border-radius: 10px;
+  padding: 30px 37px;
+  min-width: 270px;
+}
+
+.about-user-container {
+  @include mix.flex(20px);
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.user-img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.starts-list {
+  @include mix.flex(3px);
+}
+
+.user-name {
+  font-size: 15px;
+  color: var.$totalBlackText;
+  font-weight: func.font-weight("medium");
+  line-height: 1.87;
+  font-variant: small-caps;
+}
+
+.review-text {
+line-height: 1.5;
+color: var.$secondaryTextColor;
+}
