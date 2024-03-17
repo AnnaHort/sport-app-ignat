@@ -19,13 +19,20 @@ $main-font: "Roboto";
 $secondary-font: "Inter";
 $accent-font: "Montserrat";
 
-//map
 $font-weights: (
   "light": 300,
   "regular": 400,
   "medium": 500,
   "bold": 700,
 );
+
+$font-weight-inter: (
+  "light": 300,
+  "regular": 400,
+  "black": 900,
+);
+
+
 
 $font-sizes: (
   "xs": 12px,

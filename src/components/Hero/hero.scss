@@ -2,14 +2,9 @@
 @use "../scss/utilities/mixins" as mix;
 @use "../scss/utilities/functions" as func;
 
-.hero-section {
-
-}
-
-
-
 .hero-slider-bgc {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../img/hero-img.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../img/hero-img.jpg");
   background-size: auto 489px;
   background-size: cover;
   background-position: center center;
@@ -18,17 +13,13 @@
 }
 
 .swiper-hero-container {
-  
   @include mix.flex(130px);
   justify-content: center;
 }
 
-.title-container {
-}
-
 .hero-title {
   font-family: var.$secondary-font, sans-serif;
-  font-weight: 900;
+  font-weight: func.font-weight-inter("black");
   font-size: func.font-sizes("xxxl");
   color: var.$primaryAccentTextColor;
   max-width: 470px;
@@ -37,16 +28,14 @@
 
 .hero-title-accent {
   font-family: var.$secondary-font, sans-serif;
-  font-weight: 300;
+  font-weight: func.font-weight-inter("light");
   font-size: func.font-sizes("xxxl");
   color: var.$primaryAccentTextColor;
 }
 
-.hero-info-container {
-}
 .sale-text {
   font-family: var.$secondary-font, sans-serif;
-  font-weight: 300;
+  font-weight: func.font-weight-inter("light");
   font-size: func.font-sizes("xxl");
   color: var.$primaryAccentTextColor;
   text-align: center;
@@ -58,7 +47,7 @@
 
 .time-text {
   font-family: var.$secondary-font, sans-serif;
-  font-weight: 400;
+  font-weight: func.font-weight-inter("regular");
   font-size: func.font-sizes("md");
   text-align: center;
   color: var.$primaryAccentTextColor;

@@ -2,15 +2,22 @@
 @use "../../scss/utilities/variables" as var;
 
 
-// font-weight
+// font-weight-roboto
 @function font-weight($key){
     @return map.get(var.$font-weights, $key)
+};
+
+// font-weight-inter
+@function font-weight-inter($key){
+    @return map.get(var.$font-weight-inter, $key)
 };
 
 // font-sizes
 @function font-sizes($key){
     @return map.get(var.$font-sizes, $key)
 };
+
+
 
 
 
