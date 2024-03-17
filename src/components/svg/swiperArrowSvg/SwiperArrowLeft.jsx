@@ -12,7 +12,7 @@ export const SwiperArrowLeft = () => {
       >
         <path
           d="M0 3.5L5 6.38675V0.613249L0 3.5ZM25 3L4.5 3V4L25 4V3Z"
-          fill="#959595"
+          fill="#343434"
         />
       </svg>
     </div>

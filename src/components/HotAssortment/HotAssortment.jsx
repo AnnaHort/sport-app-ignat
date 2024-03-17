@@ -25,11 +25,17 @@ export const HotAssortment = () => {
         spaceBetween={50}
         slidesPerView={3}
         slidesPerGroup={3}
-        pagination={{ type: "fraction" }}
+        pagination={{
+            type: 'fraction',
+            renderFraction: function (currentClass, totalClass) {
+              return '0<span class="' + currentClass + '"></span> / 0<span class="' + totalClass + '"></span>';
+            }
+          }}
         navigation={{
           prevEl: ".swiper-button-left",
           nextEl: ".swiper-button-right",
         }}
+        className="swiper-hotAssortment"
       >
         <SwiperSlide>
           <picture>
@@ -126,7 +132,8 @@ export const HotAssortment = () => {
           <p className="product-type">Аксесуари</p>
           <p className="product-details">30 кг.</p>
           <p className="price">2000 грн.</p>
-        </SwiperSlide>        <SwiperSlide>
+        </SwiperSlide>{" "}
+        <SwiperSlide>
           <picture>
             <source
               srcSet={`${whiteThermalUnderwear1x} 1x, ${whiteThermalUnderwear2x} 2x`}
@@ -174,12 +181,11 @@ export const HotAssortment = () => {
           <p className="product-details">30 кг.</p>
           <p className="price">2000 грн.</p>
         </SwiperSlide>
-       
         <button className="swiper-button-left">
-            <SwiperArrowLeft/>
+          <SwiperArrowLeft />
         </button>
         <button className="swiper-button-right">
-            <SwiperArrowRight/>
+          <SwiperArrowRight />
         </button>
       </Swiper>
     </section>

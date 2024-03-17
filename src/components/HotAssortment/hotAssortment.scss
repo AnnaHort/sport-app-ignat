@@ -2,8 +2,9 @@
 @use "../scss/utilities/variables" as var;
 
 .hotAssortment-section {
-    padding-bottom: 80px;
-    border-bottom: 1px #959595 solid;
+  padding-bottom: 80px;
+  border-bottom: 1px #959595 solid;
+  position: relative;
 }
 
 .hotAssortment-title {
@@ -13,8 +14,9 @@
   font-variant: small-caps;
   margin-bottom: 31px;
 }
+
 .white-thermal-underwear {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 .assortment-title {
   font-weight: func.font-weight("medium");
@@ -36,13 +38,44 @@
   margin-bottom: 17px;
 }
 .price {
-    font-weight: func.font-weight("bold");
-    font-size: func.font-sizes("md");
+  font-weight: func.font-weight("bold");
+  font-size: func.font-sizes("md");
   line-height: 2;
   font-variant: small-caps;
   color: var.$priceTextColor;
 }
+
+//swiper style
+
+.swiper-hotAssortment {
+  position: static;
+}
+
 .swiper-button-left {
+  position: absolute;
+  top: 14px;
+  right: 50px;
+  z-index: 100;
 }
 .swiper-button-right {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  z-index: 100;
+}
+
+.swiper-button-left.swiper-button-disabled,
+.swiper-button-right.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: auto;
+}
+
+.swiper-pagination-fraction {
+  position: absolute;
+  top: 16px;
+  right: 88px;
+  width: 60px;
+  text-align: start;
+  left: auto;
 }
