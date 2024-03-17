@@ -2,6 +2,7 @@ import React from "react";
 import sportsman1x from "../../img/sportsman-1x.jpg";
 import sportsman2x from "../../img/sportsman-2x.jpg";
 import "./catalog.scss";
+import { Link } from "react-router-dom";
 
 export const Catalog = () => {
   return (
@@ -14,7 +15,7 @@ export const Catalog = () => {
           Обирай подарунок своїм друзями бодібілдерам із нашою новою колекцію
           термобілизни "Big warm"
         </p>
-        <button className="enter-catalog-btn">До каталогу</button>
+        <Link to={"/catalog"} className="enter-catalog-btn" >До каталогу</Link>
       </div>
       <picture>
         <source srcSet={`${sportsman1x} 1x, ${sportsman2x} 2x`} />
