@@ -10,6 +10,7 @@ body {
   font-size: func.font-sizes("sm");
   color: var.$primaryTextColor;
   background-color: var.$primaryBgcColor;
+  user-select: none;
 }
 
 .container{

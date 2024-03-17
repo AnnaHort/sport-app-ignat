@@ -14,6 +14,7 @@ import "swiper/css/pagination";
 import "./hotAssortment.scss";
 import { SwiperArrowLeft } from "../svg/swiperArrowSvg/SwiperArrowLeft";
 import { SwiperArrowRight } from "../svg/swiperArrowSvg/SwiperArrowRight";
+import { FavoriteSvg } from "../svg/FavoriteSvg/FavoriteSvg";
 
 export const HotAssortment = () => {
   return (
@@ -26,18 +27,28 @@ export const HotAssortment = () => {
         slidesPerView={3}
         slidesPerGroup={3}
         pagination={{
-            type: 'fraction',
-            renderFraction: function (currentClass, totalClass) {
-              return '0<span class="' + currentClass + '"></span> / 0<span class="' + totalClass + '"></span>';
-            }
-          }}
+          type: "fraction",
+          renderFraction: function (currentClass, totalClass) {
+            return (
+              '0<span class="' +
+              currentClass +
+              '"></span> / 0<span class="' +
+              totalClass +
+              '"></span>'
+            );
+          },
+        }}
         navigation={{
           prevEl: ".swiper-button-left",
           nextEl: ".swiper-button-right",
         }}
         className="swiper-hotAssortment"
       >
-        <SwiperSlide>
+        <SwiperSlide className="hotAssortment-slide">
+          <button className="hotAssortment-slide-favorite-svg" type="button">
+            <FavoriteSvg style={{ width: "24px", height: "24px" }} />
+          </button>
+
           <picture>
             <source
               srcSet={`${whiteThermalUnderwear1x} 1x, ${whiteThermalUnderwear2x} 2x`}
@@ -54,6 +65,9 @@ export const HotAssortment = () => {
           <p className="price">4000 грн.</p>
         </SwiperSlide>
         <SwiperSlide>
+        <button className="hotAssortment-slide-favorite-svg" type="button">
+            <FavoriteSvg style={{ width: "24px", height: "24px" }} />
+          </button>
           <picture>
             <source
               srcSet={`${bodybuildersTShirt1x} 1x, ${bodybuildersTShirt2x} 2x`}
@@ -70,6 +84,9 @@ export const HotAssortment = () => {
           <p className="price">1100 грн.</p>
         </SwiperSlide>
         <SwiperSlide>
+        <button className="hotAssortment-slide-favorite-svg" type="button">
+            <FavoriteSvg style={{ width: "24px", height: "24px" }} />
+          </button>
           <picture>
             <source
               srcSet={`${bodybuildersChain1x} 1x, ${bodybuildersChain2x} 2x`}
@@ -86,6 +103,9 @@ export const HotAssortment = () => {
           <p className="price">2000 грн.</p>
         </SwiperSlide>
         <SwiperSlide>
+                 <button className="hotAssortment-slide-favorite-svg" type="button">
+            <FavoriteSvg style={{ width: "24px", height: "24px" }} />
+          </button>
           <picture>
             <source
               srcSet={`${whiteThermalUnderwear1x} 1x, ${whiteThermalUnderwear2x} 2x`}
@@ -102,6 +122,9 @@ export const HotAssortment = () => {
           <p className="price">4000 грн.</p>
         </SwiperSlide>
         <SwiperSlide>
+                 <button className="hotAssortment-slide-favorite-svg" type="button">
+            <FavoriteSvg style={{ width: "24px", height: "24px" }} />
+          </button>
           <picture>
             <source
               srcSet={`${bodybuildersTShirt1x} 1x, ${bodybuildersTShirt2x} 2x`}
@@ -118,6 +141,9 @@ export const HotAssortment = () => {
           <p className="price">1100 грн.</p>
         </SwiperSlide>
         <SwiperSlide>
+                 <button className="hotAssortment-slide-favorite-svg" type="button">
+            <FavoriteSvg style={{ width: "24px", height: "24px" }} />
+          </button>
           <picture>
             <source
               srcSet={`${bodybuildersChain1x} 1x, ${bodybuildersChain2x} 2x`}
@@ -134,6 +160,9 @@ export const HotAssortment = () => {
           <p className="price">2000 грн.</p>
         </SwiperSlide>{" "}
         <SwiperSlide>
+                 <button className="hotAssortment-slide-favorite-svg" type="button">
+            <FavoriteSvg style={{ width: "24px", height: "24px" }} />
+          </button>
           <picture>
             <source
               srcSet={`${whiteThermalUnderwear1x} 1x, ${whiteThermalUnderwear2x} 2x`}
@@ -150,6 +179,9 @@ export const HotAssortment = () => {
           <p className="price">4000 грн.</p>
         </SwiperSlide>
         <SwiperSlide>
+                 <button className="hotAssortment-slide-favorite-svg" type="button">
+            <FavoriteSvg style={{ width: "24px", height: "24px" }} />
+          </button>
           <picture>
             <source
               srcSet={`${bodybuildersTShirt1x} 1x, ${bodybuildersTShirt2x} 2x`}
@@ -166,6 +198,9 @@ export const HotAssortment = () => {
           <p className="price">1100 грн.</p>
         </SwiperSlide>
         <SwiperSlide>
+                 <button className="hotAssortment-slide-favorite-svg" type="button">
+            <FavoriteSvg style={{ width: "24px", height: "24px" }} />
+          </button>
           <picture>
             <source
               srcSet={`${bodybuildersChain1x} 1x, ${bodybuildersChain2x} 2x`}

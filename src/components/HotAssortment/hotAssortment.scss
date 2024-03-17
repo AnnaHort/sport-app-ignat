@@ -15,6 +15,19 @@
   margin-bottom: 31px;
 }
 
+.hotAssortment-slide{
+    position: relative;
+}
+
+.hotAssortment-slide-favorite-svg{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
 .white-thermal-underwear {
   margin-bottom: 15px;
 }
@@ -53,13 +66,13 @@
 
 .swiper-button-left {
   position: absolute;
-  top: 14px;
+  top: 23px;
   right: 50px;
   z-index: 100;
 }
 .swiper-button-right {
   position: absolute;
-  top: 14px;
+  top: 23px;
   right: 10px;
   z-index: 100;
 }
