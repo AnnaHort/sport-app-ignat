@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sport-app-ignat/static/css/main.17655f03.css",
+    "main.css": "/sport-app-ignat/static/css/main.a827bcdd.css",
     "main.js": "/sport-app-ignat/static/js/main.913a655f.js",
     "static/media/hero-img.jpg": "/sport-app-ignat/static/media/hero-img.4fab7a56191753543c12.jpg",
     "static/media/bodybuildersChain-2x.jpg": "/sport-app-ignat/static/media/bodybuildersChain-2x.ac1cd50051c2f65a6e84.jpg",
@@ -8,13 +8,17 @@
     "static/media/bodybuilders-t-shirt-2x.jpg": "/sport-app-ignat/static/media/bodybuilders-t-shirt-2x.cb1a40b0f6ee3f5f7de5.jpg",
     "static/media/white-thermal-underwear-2x.jpg": "/sport-app-ignat/static/media/white-thermal-underwear-2x.5bf48b9d9d61e10cfe6d.jpg",
     "static/media/montserrat-medium-webfont.woff": "/sport-app-ignat/static/media/montserrat-medium-webfont.d2aadcb1def62497a65c.woff",
-    "static/media/inter-variablefont_slntwght-webfont.woff": "/sport-app-ignat/static/media/inter-variablefont_slntwght-webfont.3ae3a41f196261f37abf.woff",
+    "static/media/inter-black-webfont.woff": "/sport-app-ignat/static/media/inter-black-webfont.f3a6e1b39fe3a7021708.woff",
+    "static/media/inter-light-webfont.woff": "/sport-app-ignat/static/media/inter-light-webfont.7f5bb5ecd73cd34f7c39.woff",
+    "static/media/inter-regular-webfont.woff": "/sport-app-ignat/static/media/inter-regular-webfont.ceaa780b29e40ae0ed1e.woff",
     "static/media/montserrat-medium-webfont.woff2": "/sport-app-ignat/static/media/montserrat-medium-webfont.3d02b54e2a9c67b18ff4.woff2",
     "static/media/roboto-bold-webfont.woff": "/sport-app-ignat/static/media/roboto-bold-webfont.295457f480e860217118.woff",
     "static/media/roboto-medium-webfont.woff": "/sport-app-ignat/static/media/roboto-medium-webfont.424762abcf12b217b0e1.woff",
     "static/media/roboto-regular-webfont.woff": "/sport-app-ignat/static/media/roboto-regular-webfont.f261efb770dfae0d1753.woff",
     "static/media/roboto-light-webfont.woff": "/sport-app-ignat/static/media/roboto-light-webfont.d72c111d041058ca9273.woff",
-    "static/media/inter-variablefont_slntwght-webfont.woff2": "/sport-app-ignat/static/media/inter-variablefont_slntwght-webfont.70ada1522e26bea18ba6.woff2",
+    "static/media/inter-black-webfont.woff2": "/sport-app-ignat/static/media/inter-black-webfont.94f658ad9211cf96b957.woff2",
+    "static/media/inter-regular-webfont.woff2": "/sport-app-ignat/static/media/inter-regular-webfont.865830a30274d51c5d6b.woff2",
+    "static/media/inter-light-webfont.woff2": "/sport-app-ignat/static/media/inter-light-webfont.91bff6ea7a4a60ac8f58.woff2",
     "static/media/bodybuildersChain-1x.jpg": "/sport-app-ignat/static/media/bodybuildersChain-1x.eea3c83495ed38a2139a.jpg",
     "static/media/roboto-bold-webfont.woff2": "/sport-app-ignat/static/media/roboto-bold-webfont.85cd4a5118b1d9d39848.woff2",
     "static/media/roboto-medium-webfont.woff2": "/sport-app-ignat/static/media/roboto-medium-webfont.9266d7981ad5d1c5e2a5.woff2",
@@ -24,11 +28,11 @@
     "static/media/sportsman-1x.jpg": "/sport-app-ignat/static/media/sportsman-1x.25cffa52471415a11edb.jpg",
     "static/media/white-thermal-underwear-1x.jpg": "/sport-app-ignat/static/media/white-thermal-underwear-1x.ac7402eaaa043700e181.jpg",
     "index.html": "/sport-app-ignat/index.html",
-    "main.17655f03.css.map": "/sport-app-ignat/static/css/main.17655f03.css.map",
+    "main.a827bcdd.css.map": "/sport-app-ignat/static/css/main.a827bcdd.css.map",
     "main.913a655f.js.map": "/sport-app-ignat/static/js/main.913a655f.js.map"
   },
   "entrypoints": [
-    "static/css/main.17655f03.css",
+    "static/css/main.a827bcdd.css",
     "static/js/main.913a655f.js"
   ]
 }
