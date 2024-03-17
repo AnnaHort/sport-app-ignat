@@ -1,0 +1,41 @@
+@use "../scss/utilities/functions" as func;
+@use "../scss/utilities/mixins" as mix;
+@use "../scss/utilities/variables" as var;
+
+.about-us-section {
+  border-top: 1px solid #cccccc;
+  padding: 46px 0 52px 0;
+}
+
+.about-us-section-container {
+  display: flex;
+  gap: 130px;
+}
+
+.about-us-contact-container {
+  display: flex;
+  gap: 30px;
+}
+
+.social-media-container {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-us-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-us-title {
+  font-variant: small-caps;
+  margin-bottom: 30px;
+}
+
+.about-us-info {
+  font-variant: small-caps;
+  color: var.$secondaryTextColor;
+}

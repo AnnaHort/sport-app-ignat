@@ -7,13 +7,15 @@ import { Reviews } from "../../components/Reviews/Reviews";
 
 const MainPage = () => {
   return (
-    <main>
-      <Hero />
-      <Catalog/>
-      <HotAssortment/>
-      <Subscribe/>
-      <Reviews/>
-    </main>
+    <>
+      <main>
+        <Hero />
+        <Catalog />
+        <HotAssortment />
+        <Subscribe />
+        <Reviews />
+      </main>
+    </>
   );
 };
 
